@@ -1,7 +1,10 @@
 # FlexiMart Data Architecture Project
 **Student Name**: Yaswant Singh
+
 **Student ID**: bitsom_ba_25071501
+
 **Email**: yash.tech1122@gmail.com
+
 **Date**: 07-JAN-2026
 
 ## Project Overview
