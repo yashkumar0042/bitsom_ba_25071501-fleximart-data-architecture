@@ -392,8 +392,8 @@ def transform_sales(raw_rows):
 def get_db_connection():
     host = os.getenv("DB_HOST", "localhost")
     port = int(os.getenv("DB_PORT", "3306"))
-    user = os.getenv("DB_USER", "root")
-    password = os.getenv("DB_PASSWORD", "")
+    user = os.getenv("DB_USER", "yash")
+    password = os.getenv("DB_PASSWORD", "Yash@2014")
     database = os.getenv("DB_NAME", "fleximart")
 
     return mysql.connector.connect(

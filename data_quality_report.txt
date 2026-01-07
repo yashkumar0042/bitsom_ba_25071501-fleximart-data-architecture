@@ -1,0 +1,37 @@
+DATA QUALITY REPORT - fleximart ETL
+Generated at: 2026-01-07T22:33:40
+------------------------------------------------------------
+
+[customers_raw.csv]
+input_records: 26
+duplicates_removed: 1
+missing_email_filled: 5
+missing_email_dropped: 0
+phones_standardized: 23
+dates_parsed_failed: 0
+output_records: 25
+
+[products_raw.csv]
+input_records: 20
+duplicates_removed: 0
+missing_price_imputed: 3
+missing_stock_filled: 1
+categories_standardized: 9
+output_records: 20
+
+[sales_raw.csv]
+input_records: 41
+duplicates_removed: 1
+missing_customer_dropped: 3
+missing_product_dropped: 2
+date_parse_failed: 0
+output_records: 35
+
+[load_summary]
+customers_loaded: 25
+products_loaded: 20
+orders_loaded: 35
+order_items_loaded: 35
+sales_dropped_unmapped_fk: 0
+
+------------------------------------------------------------
