@@ -11,21 +11,37 @@
 This project implements an end-to-end data architecture for FlexiMart, covering transactional data ingestion, data cleaning, relational storage, NoSQL modeling, and analytical reporting. It includes a Python-based ETL pipeline for structured data, MongoDB-based flexible product catalog storage.
 
 ## Repository Structure
+studentID-fleximart-data-architecture/
+│
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── customers_raw.csv
+│   ├── products_raw.csv
+│   └── sales_raw.csv
+│
 ├── part1-database-etl/
+│   ├── README.md
 │   ├── etl_pipeline.py
 │   ├── schema_documentation.md
 │   ├── business_queries.sql
-│   └── data_quality_report.txt
+│   ├── data_quality_report.txt
+│   └── requirements.txt
+│
 ├── part2-nosql/
+│   ├── README.md
 │   ├── nosql_analysis.md
 │   ├── mongodb_operations.js
 │   └── products_catalog.json
-├── part3-datawarehouse/
-│   ├── star_schema_design.md
-│   ├── warehouse_schema.sql
-│   ├── warehouse_data.sql
-│   └── analytics_queries.sql
-└── README.md
+│
+└── part3-datawarehouse/
+    ├── README.md
+    ├── star_schema_design.md
+    ├── warehouse_schema.sql
+    ├── warehouse_data.sql
+    └── analytics_queries.sql
+
 
 ## Technologies Used
 
@@ -52,7 +68,7 @@ mysql -u root -p fleximart < part1-database-etl/business_queries.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_schema.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_data.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
-
+```
 
 ### MongoDB Setup
 
