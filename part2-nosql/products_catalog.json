@@ -1,0 +1,220 @@
+[
+  {
+    "product_id": "ELEC001",
+    "name": "Samsung Galaxy S21",
+    "category": "Electronics",
+    "price": 49999,
+    "stock": 150,
+    "specs": {
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    "reviews": [
+      {
+        "user": "U001",
+        "rating": 5,
+        "comment": "Excellent phone",
+        "date": "2024-01-15"
+      },
+      {
+        "user": "U002",
+        "rating": 4,
+        "comment": "Good camera",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "product_id": "ELEC002",
+    "name": "Apple MacBook Air M1",
+    "category": "Electronics",
+    "price": 89999,
+    "stock": 60,
+    "specs": {
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "reviews": [
+      {
+        "user": "U003",
+        "rating": 5,
+        "comment": "Super fast",
+        "date": "2024-03-01"
+      }
+    ]
+  },
+  {
+    "product_id": "ELEC003",
+    "name": "Sony WH-1000XM4",
+    "category": "Electronics",
+    "price": 24999,
+    "stock": 120,
+    "specs": {
+      "type": "Over-Ear",
+      "noise_cancellation": true
+    },
+    "reviews": [
+      {
+        "user": "U004",
+        "rating": 4,
+        "comment": "Great noise cancellation",
+        "date": "2024-01-20"
+      }
+    ]
+  },
+  {
+    "product_id": "ELEC004",
+    "name": "Dell Inspiron 15",
+    "category": "Electronics",
+    "price": 55999,
+    "stock": 80,
+    "specs": {
+      "ram": "16GB",
+      "storage": "512GB SSD"
+    },
+    "reviews": [
+      {
+        "user": "U005",
+        "rating": 4,
+        "comment": "Value for money",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "product_id": "ELEC005",
+    "name": "Mi Smart Band 6",
+    "category": "Electronics",
+    "price": 3499,
+    "stock": 300,
+    "specs": {
+      "display": "AMOLED",
+      "battery_life": "14 days"
+    },
+    "reviews": [
+      {
+        "user": "U006",
+        "rating": 3,
+        "comment": "Decent for the price",
+        "date": "2024-01-18"
+      }
+    ]
+  },
+  {
+    "product_id": "SHOE001",
+    "name": "Nike Air Zoom Pegasus",
+    "category": "Footwear",
+    "price": 9999,
+    "stock": 90,
+    "specs": {
+      "size": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "color": "Black"
+    },
+    "reviews": [
+      {
+        "user": "U007",
+        "rating": 5,
+        "comment": "Very comfortable",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "product_id": "SHOE002",
+    "name": "Adidas Ultraboost",
+    "category": "Footwear",
+    "price": 15999,
+    "stock": 70,
+    "specs": {
+      "size": [
+        8,
+        9,
+        10
+      ],
+      "color": "White"
+    },
+    "reviews": [
+      {
+        "user": "U008",
+        "rating": 4,
+        "comment": "Great cushioning",
+        "date": "2024-03-03"
+      }
+    ]
+  },
+  {
+    "product_id": "SHOE003",
+    "name": "Puma Running Shoes",
+    "category": "Footwear",
+    "price": 6999,
+    "stock": 110,
+    "specs": {
+      "size": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "color": "Blue"
+    },
+    "reviews": [
+      {
+        "user": "U009",
+        "rating": 4,
+        "comment": "Lightweight and durable",
+        "date": "2024-01-25"
+      }
+    ]
+  },
+  {
+    "product_id": "SHOE004",
+    "name": "Woodland Leather Boots",
+    "category": "Footwear",
+    "price": 12999,
+    "stock": 50,
+    "specs": {
+      "size": [
+        8,
+        9,
+        10
+      ],
+      "color": "Brown"
+    },
+    "reviews": [
+      {
+        "user": "U010",
+        "rating": 5,
+        "comment": "Premium quality",
+        "date": "2024-02-22"
+      }
+    ]
+  },
+  {
+    "product_id": "SHOE005",
+    "name": "Skechers Go Walk",
+    "category": "Footwear",
+    "price": 5499,
+    "stock": 140,
+    "specs": {
+      "size": [
+        7,
+        8,
+        9
+      ],
+      "color": "Grey"
+    },
+    "reviews": [
+      {
+        "user": "U011",
+        "rating": 4,
+        "comment": "Good for daily wear",
+        "date": "2024-03-10"
+      }
+    ]
+  }
+]
