@@ -1,0 +1,36 @@
+2026-01-03 22:31:41,982 [INFO] EXTRACT: Reading CSV files...
+2026-01-03 22:31:42,056 [INFO] TRANSFORM: Cleaning customers...
+2026-01-03 22:31:42,075 [INFO] TRANSFORM: Cleaning products...
+2026-01-03 22:31:42,079 [INFO] TRANSFORM: Cleaning sales...
+2026-01-03 22:31:46,283 [ERROR] MySQL error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+Traceback (most recent call last):
+  File "C:\Users\yashk\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on 'localhost:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\yashk\bits\etl_pipeline.py", line 595, in main
+    conn = get_db_connection()
+  File "C:\Users\yashk\bits\etl_pipeline.py", line 399, in get_db_connection
+    return mysql.connector.connect(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        host=host, port=port, user=user, password=password, database=database
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\yashk\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\yashk\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\yashk\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\abstracts.py", line 1604, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yashk\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
