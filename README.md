@@ -58,10 +58,10 @@ mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 
 mongosh < part2-nosql/mongodb_operations.js
 
-## Key Learnings
+# Key Learnings
 This project strengthened my understanding of real-world data quality challenges and how to address them using ETL best practices. I learned how relational databases and NoSQL databases serve different business needs and how to choose the right data model accordingly. Designing a star schema helped me understand dimensional modeling and its importance for analytical workloads.
 
-## Challenges Faced
+# Challenges Faced
 **1. Handling inconsistent and missing data in CSV files**
 This was resolved by applying appropriate transformation strategies such as deduplication, default value imputation, and standardization using pandas.
 
