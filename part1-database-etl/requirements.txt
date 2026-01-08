@@ -1,0 +1,6 @@
+pip install csv
+pip install decimal
+pip install mysql.connector 
+pip install pymongo
+pip install pandas
+pip install sqlalchemy
