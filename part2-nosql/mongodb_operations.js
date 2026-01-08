@@ -1,8 +1,5 @@
 /**
  * mongodb_operations.js
- * 
- *  * How to run in mongosh:
- *   mongosh "mongodb://localhost:27017/fleximart" mongodb_operations.js
  */
 
 use fleximart;
