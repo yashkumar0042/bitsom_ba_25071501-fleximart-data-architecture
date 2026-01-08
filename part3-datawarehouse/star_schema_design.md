@@ -91,7 +91,7 @@ This star schema uses **transaction line-item granularity** because it preserves
 ## Section 3: Sample Data Flow
 
 ### Source Transaction
-Order #101, Customer "Yash Kumar", Product "Laptop", Qty: 2, Price: 50000
+Order #101, Customer "John Doe", Product "Laptop", Qty: 2, Price: 50000
 
 ### Becomes in Data Warehouse
 
