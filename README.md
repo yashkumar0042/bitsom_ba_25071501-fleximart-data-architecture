@@ -11,6 +11,7 @@
 This project implements an end-to-end data architecture for FlexiMart, covering transactional data ingestion, data cleaning, relational storage, NoSQL modeling, and analytical reporting. It includes a Python-based ETL pipeline for structured data, MongoDB-based flexible product catalog storage.
 
 ## Repository Structure
+```
 studentID-fleximart-data-architecture/
 │
 ├── README.md
@@ -41,7 +42,7 @@ studentID-fleximart-data-architecture/
     ├── warehouse_schema.sql
     ├── warehouse_data.sql
     └── analytics_queries.sql
-
+```
 
 ## Technologies Used
 
